@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\siteControler;
+use App\Http\Controllers\MySkillController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,3 +24,4 @@ Route::get('/', function () {
 // });
 
 Route::get('/home', [siteControler::class,'Home']);
+Route::get('/create', [MySkillController::class,'skillCreate']);
