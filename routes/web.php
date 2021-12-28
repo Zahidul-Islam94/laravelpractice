@@ -25,3 +25,4 @@ Route::get('/', function () {
 
 Route::get('/home', [siteControler::class,'Home']);
 Route::get('/create', [MySkillController::class,'skillCreate']);
+Route::get('/get', [MySkillController::class,'skillManage']);

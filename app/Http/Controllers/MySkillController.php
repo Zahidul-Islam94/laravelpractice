@@ -20,4 +20,9 @@ class MySkillController extends Controller
             return "data insert not successfull";
         }
     }
+
+    function skillManage(){
+        $skill=MySkill::get();
+        return 
+    }
 }
